@@ -1,0 +1,57 @@
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: black;
+        color: white;
+        font-family: Verdana, Geneva, arial, sans-serif;
+        padding: 0px;
+        margin: 0px;    
+
+    }
+    #wrapper {
+        width: 100%;
+
+    }
+    header {
+        background-color: #0a2342;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    header h1 { 
+        margin-left: 15px;
+    }
+    nav {
+        margin-left: 15px;  
+    }
+    nav a{
+        color: white;
+        text-decoration:none;
+    }
+    article{
+        min-height: 550px;
+        padding-top: 20px;
+        background-color: #123c69;
+    }
+    h1,h2,h3,h4,h5,h6,p,li {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    footer {
+        background-color: black;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    footer a {
+        color: white; 
+    }
+}
+.box {
+    width: 85;
+    min-height: 160px;
+    float: none;
+    background-color: #0a2342;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+}
