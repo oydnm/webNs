@@ -1,12 +1,12 @@
 @charset "UTF-8";
-body {
+body { /* this is for the tablet page styling */
     background-color: black;
     color: white;
     font-family: Verdana, Geneva, arial, sans-serif;
     padding: 0px;
     margin: 0px;
 }
-#wrapper {
+#wrapper { /* main website wrapper*/
     width: 100%;
     min-height: 800px;
     margin-left: auto;
@@ -46,7 +46,7 @@ footer {
 footer a {
     color: white; 
 }
-.box {
+.box { /* styles each project box */
     width: 42%;
     min-height: 180px;
     float: left;
@@ -55,7 +55,7 @@ footer a {
     padding: 10px;  
     border-radius: 15px; 
 }
-.clear{
+.clear{ /* stops other content from wrapping around the floated project boxes */
     clear: both;
     
 }

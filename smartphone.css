@@ -1,5 +1,5 @@
-@media only screen and (max-width: 480px) {
-    body {
+@media only screen and (max-width: 480px) { /* applies these styles to smartphone screens or screens that meet the requirement*/
+    body { /* main smartphone page styling*/
         background-color: black;
         color: white;
         font-family: Verdana, Geneva, arial, sans-serif;
@@ -7,7 +7,7 @@
         margin: 0px;    
 
     }
-    #wrapper {
+    #wrapper { /* main website wrapper for screen fitting the requirement*/
         width: 100%;
 
     }
@@ -46,7 +46,7 @@
         color: white; 
     }
 }
-.box {
+.box { /* styles each for smartphone project box */
     width: 85;
     min-height: 160px;
     float: none;

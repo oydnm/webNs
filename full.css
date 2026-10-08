@@ -1,12 +1,14 @@
 @charset "UTF-8";
-body {
+/* sets the character encoding for the CSS file*/
+body {/* this is for the main desktop page styling and background gradient*/
     color: white;
     font-family: Verdana, Geneva, arial, sans-serif;
     padding: 0px;
     margin: 0px;
     background: linear-gradient( to bottom, #0b1f3a 0%, #000000 100%);
+    /* this is for the linear gradient background on the main page*/
 }
-#wrapper {
+#wrapper { /* main website wrapper*/
     width: 960px;
     min-height: 800px;
     margin-left: auto;
@@ -15,40 +17,41 @@ body {
 
 }
 
-header {
-    background-color: #0a2342;
+header { /* header styling*/
+    background: linear-gradient(45deg, #0a2342 0%, #123c69 100%);
     padding-top: 20px;
     padding-bottom: 20px;
+    /* angle linear gradient for backgound on header*/
 }
-header h1 { 
+header h1 { /* moves the main heading away from the left edge*/
     margin-left: 15px;
 }
-nav { 
+nav { /* navigation styling*/
     margin-left: 15px;
 
 }
-nav a{
+nav a{ /* styles the navigation links*/
     color: white; 
     text-decoration:none;
 }
-article{
+article{ /* controls the main content area */
     min-height: 550px;
     padding-top: 20px;
 }
-h1,h2,h3,h4,h5,h6,p,li {
+h1,h2,h3,h4,h5,h6,p,li { /* adds spacing around heading, paragrpahs and list items */
     margin-left: 15px;
     margin-right: 15px;
 }
-footer {
+footer { /* styles the footer at the bottom of the page*/
     background-color: black;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-footer a {
+footer a { /*makes footer links white */
     color: white;
 }
-figure{
+figure{ /*styles container around the photo */
     width: 220px;
     background-color: #0a2342;
     margin: 15px;
@@ -56,22 +59,22 @@ figure{
     border: 1px solid white;
 }
 
-img {
+img { /* controls the size of the image */
     width: 220px;
 }
 
-figcaption {
+figcaption { /* styles the caption under the image */
     background-color: black;
     color: white;
 }
-video {
+video { /* styles the introduction video*/
     margin: 15px;
     padding: 15px;
     background-color: black;
     border: 2px white solid;
     box-shadow: 10px 10px 5px black;
 }
-.box {
+.box { /* styles each project box */
     width: 28%;
     min-height: 180px;
     float: left;
@@ -80,6 +83,6 @@ video {
     padding: 10px;
     border-radius: 15px;
 }
-.clear{
+.clear{ /* stops other content from wrapping around the floated project boxes */
     clear: both;
 }
